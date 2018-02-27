@@ -1,0 +1,27 @@
+$bg-color: #333;
+body{
+  background: $bg-color;
+}
+p{
+  background: $bg-color;
+}
+h1,h2{
+  background: $bg-color;
+}
+h3{
+  color:#ffffff;
+}
+h4,h5,h6,iframe{
+  color:#000;
+}
+.container{
+  display: flex;
+
+}
+.content{
+  display: flex;
+}
+ul{
+  transition: all 0.2s ease;
+  display: block;
+}
